@@ -1,4 +1,30 @@
+@font-face {
+  font-family: oswaldRegular;
+  src: url(fonts/Oswald-Regular.ttf);
+}
+
+* {
+  font-family: oswaldRegular;
+}
+
 h1 {
   text-align: center;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+#top {
+  background-color: gray;
+}
+
+#content {
+  background-color: lightblue;
 }
 /*# sourceMappingURL=index.css.map */
